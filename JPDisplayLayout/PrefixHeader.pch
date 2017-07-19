@@ -1,0 +1,20 @@
+//
+//  PrefixHeader.pch
+//  
+//
+//  Created by 贾鹏 on 2017/7/19.
+//
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+#import <UIKit/UIKit.h>
+#import "ImageCache.h"
+#import "UIView+Frame.h"
+#import <YYKit/YYKit.h>
+#import <AsyncDisplayKit/AsyncDisplayKit.h>
+
+
+#endif /* PrefixHeader_pch */

@@ -7,15 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		271DD3561F1F995F00AB306D /* TestDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 271DD3551F1F995F00AB306D /* TestDataModel.m */; };
+		271DD3611F1FAFD600AB306D /* DataSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 271DD3601F1FAFD600AB306D /* DataSupport.m */; };
+		271DD47A1F1FBF2200AB306D /* AsyncDisplayKitTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 271DD45D1F1FBF2200AB306D /* AsyncDisplayKitTableViewCell.m */; };
+		271DD47B1F1FBF2200AB306D /* AsyncDisplayKitTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 271DD45F1F1FBF2200AB306D /* AsyncDisplayKitTableViewController.m */; };
+		271DD47C1F1FBF2200AB306D /* AutolayoutTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 271DD4621F1FBF2200AB306D /* AutolayoutTableViewCell.m */; };
+		271DD47D1F1FBF2200AB306D /* AutolayoutTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 271DD4631F1FBF2200AB306D /* AutolayoutTableViewCell.xib */; };
+		271DD47E1F1FBF2200AB306D /* AutolayoutTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 271DD4651F1FBF2200AB306D /* AutolayoutTableViewController.m */; };
+		271DD47F1F1FBF2200AB306D /* CountHeightTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 271DD4681F1FBF2200AB306D /* CountHeightTableViewController.m */; };
+		271DD4801F1FBF2200AB306D /* FrameCountTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 271DD46B1F1FBF2200AB306D /* FrameCountTableViewController.m */; };
+		271DD4811F1FBF2200AB306D /* FrameLayoutTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 271DD46D1F1FBF2200AB306D /* FrameLayoutTableViewCell.m */; };
+		271DD4821F1FBF2200AB306D /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 271DD46F1F1FBF2200AB306D /* MainTableViewController.m */; };
+		271DD4831F1FBF2200AB306D /* SuperTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 271DD4721F1FBF2200AB306D /* SuperTableViewCell.m */; };
+		271DD4841F1FBF2200AB306D /* SuperTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 271DD4741F1FBF2200AB306D /* SuperTableViewController.m */; };
+		271DD4851F1FBF2200AB306D /* YYKitTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 271DD4771F1FBF2200AB306D /* YYKitTableViewCell.m */; };
+		271DD4861F1FBF2200AB306D /* YYKitTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 271DD4791F1FBF2200AB306D /* YYKitTableViewController.m */; };
 		274ED9F31F1F68C40021FEA6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 274ED9F21F1F68C40021FEA6 /* main.m */; };
 		274ED9F61F1F68C40021FEA6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 274ED9F51F1F68C40021FEA6 /* AppDelegate.m */; };
-		274ED9F91F1F68C40021FEA6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 274ED9F81F1F68C40021FEA6 /* ViewController.m */; };
 		274ED9FC1F1F68C40021FEA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 274ED9FA1F1F68C40021FEA6 /* Main.storyboard */; };
-		274ED9FF1F1F68C40021FEA6 /* JPDisplayLayout.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 274ED9FD1F1F68C40021FEA6 /* JPDisplayLayout.xcdatamodeld */; };
 		274EDA011F1F68C40021FEA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 274EDA001F1F68C40021FEA6 /* Assets.xcassets */; };
 		274EDA041F1F68C40021FEA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 274EDA021F1F68C40021FEA6 /* LaunchScreen.storyboard */; };
-		274EDA0F1F1F68C40021FEA6 /* JPDisplayLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 274EDA0E1F1F68C40021FEA6 /* JPDisplayLayoutTests.m */; };
-		274EDA1A1F1F68C40021FEA6 /* JPDisplayLayoutUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 274EDA191F1F68C40021FEA6 /* JPDisplayLayoutUITests.m */; };
+		274EDA311F1F95930021FEA6 /* FPSDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = 274EDA2B1F1F95930021FEA6 /* FPSDisplay.m */; };
+		274EDA321F1F95930021FEA6 /* ImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 274EDA2D1F1F95930021FEA6 /* ImageCache.m */; };
+		274EDA331F1F95930021FEA6 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 274EDA2F1F1F95930021FEA6 /* UIView+Frame.m */; };
+		484AC01EBF04AB5B3F2306AE /* libPods-JPDisplayLayout.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8795F1A39CF50854A72BC6FB /* libPods-JPDisplayLayout.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,23 +51,55 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		271DD3541F1F995F00AB306D /* TestDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestDataModel.h; sourceTree = "<group>"; };
+		271DD3551F1F995F00AB306D /* TestDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestDataModel.m; sourceTree = "<group>"; };
+		271DD3581F1F9AE300AB306D /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		271DD35F1F1FAFD600AB306D /* DataSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataSupport.h; sourceTree = "<group>"; };
+		271DD3601F1FAFD600AB306D /* DataSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataSupport.m; sourceTree = "<group>"; };
+		271DD45C1F1FBF2200AB306D /* AsyncDisplayKitTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncDisplayKitTableViewCell.h; sourceTree = "<group>"; };
+		271DD45D1F1FBF2200AB306D /* AsyncDisplayKitTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncDisplayKitTableViewCell.m; sourceTree = "<group>"; };
+		271DD45E1F1FBF2200AB306D /* AsyncDisplayKitTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncDisplayKitTableViewController.h; sourceTree = "<group>"; };
+		271DD45F1F1FBF2200AB306D /* AsyncDisplayKitTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncDisplayKitTableViewController.m; sourceTree = "<group>"; };
+		271DD4611F1FBF2200AB306D /* AutolayoutTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutolayoutTableViewCell.h; sourceTree = "<group>"; };
+		271DD4621F1FBF2200AB306D /* AutolayoutTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutolayoutTableViewCell.m; sourceTree = "<group>"; };
+		271DD4631F1FBF2200AB306D /* AutolayoutTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AutolayoutTableViewCell.xib; sourceTree = "<group>"; };
+		271DD4641F1FBF2200AB306D /* AutolayoutTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutolayoutTableViewController.h; sourceTree = "<group>"; };
+		271DD4651F1FBF2200AB306D /* AutolayoutTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutolayoutTableViewController.m; sourceTree = "<group>"; };
+		271DD4671F1FBF2200AB306D /* CountHeightTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountHeightTableViewController.h; sourceTree = "<group>"; };
+		271DD4681F1FBF2200AB306D /* CountHeightTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountHeightTableViewController.m; sourceTree = "<group>"; };
+		271DD46A1F1FBF2200AB306D /* FrameCountTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrameCountTableViewController.h; sourceTree = "<group>"; };
+		271DD46B1F1FBF2200AB306D /* FrameCountTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrameCountTableViewController.m; sourceTree = "<group>"; };
+		271DD46C1F1FBF2200AB306D /* FrameLayoutTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrameLayoutTableViewCell.h; sourceTree = "<group>"; };
+		271DD46D1F1FBF2200AB306D /* FrameLayoutTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrameLayoutTableViewCell.m; sourceTree = "<group>"; };
+		271DD46E1F1FBF2200AB306D /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
+		271DD46F1F1FBF2200AB306D /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
+		271DD4711F1FBF2200AB306D /* SuperTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperTableViewCell.h; sourceTree = "<group>"; };
+		271DD4721F1FBF2200AB306D /* SuperTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperTableViewCell.m; sourceTree = "<group>"; };
+		271DD4731F1FBF2200AB306D /* SuperTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperTableViewController.h; sourceTree = "<group>"; };
+		271DD4741F1FBF2200AB306D /* SuperTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperTableViewController.m; sourceTree = "<group>"; };
+		271DD4761F1FBF2200AB306D /* YYKitTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYKitTableViewCell.h; sourceTree = "<group>"; };
+		271DD4771F1FBF2200AB306D /* YYKitTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYKitTableViewCell.m; sourceTree = "<group>"; };
+		271DD4781F1FBF2200AB306D /* YYKitTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYKitTableViewController.h; sourceTree = "<group>"; };
+		271DD4791F1FBF2200AB306D /* YYKitTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYKitTableViewController.m; sourceTree = "<group>"; };
 		274ED9EE1F1F68C40021FEA6 /* JPDisplayLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JPDisplayLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		274ED9F21F1F68C40021FEA6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		274ED9F41F1F68C40021FEA6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		274ED9F51F1F68C40021FEA6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		274ED9F71F1F68C40021FEA6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		274ED9F81F1F68C40021FEA6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		274ED9FB1F1F68C40021FEA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		274ED9FE1F1F68C40021FEA6 /* JPDisplayLayout.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JPDisplayLayout.xcdatamodel; sourceTree = "<group>"; };
 		274EDA001F1F68C40021FEA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		274EDA031F1F68C40021FEA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		274EDA051F1F68C40021FEA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		274EDA0A1F1F68C40021FEA6 /* JPDisplayLayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JPDisplayLayoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		274EDA0E1F1F68C40021FEA6 /* JPDisplayLayoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JPDisplayLayoutTests.m; sourceTree = "<group>"; };
-		274EDA101F1F68C40021FEA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		274EDA151F1F68C40021FEA6 /* JPDisplayLayoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JPDisplayLayoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		274EDA191F1F68C40021FEA6 /* JPDisplayLayoutUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JPDisplayLayoutUITests.m; sourceTree = "<group>"; };
-		274EDA1B1F1F68C50021FEA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		274EDA2A1F1F95930021FEA6 /* FPSDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPSDisplay.h; sourceTree = "<group>"; };
+		274EDA2B1F1F95930021FEA6 /* FPSDisplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPSDisplay.m; sourceTree = "<group>"; };
+		274EDA2C1F1F95930021FEA6 /* ImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCache.h; sourceTree = "<group>"; };
+		274EDA2D1F1F95930021FEA6 /* ImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCache.m; sourceTree = "<group>"; };
+		274EDA2E1F1F95930021FEA6 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		274EDA2F1F1F95930021FEA6 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		8795F1A39CF50854A72BC6FB /* libPods-JPDisplayLayout.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JPDisplayLayout.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFF730488CAB677A6AB84DE8 /* Pods-JPDisplayLayout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JPDisplayLayout.release.xcconfig"; path = "Pods/Target Support Files/Pods-JPDisplayLayout/Pods-JPDisplayLayout.release.xcconfig"; sourceTree = "<group>"; };
+		DCD5889327B39740968229A3 /* Pods-JPDisplayLayout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JPDisplayLayout.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JPDisplayLayout/Pods-JPDisplayLayout.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				484AC01EBF04AB5B3F2306AE /* libPods-JPDisplayLayout.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,13 +128,104 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		271DD3531F1F994A00AB306D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				271DD35F1F1FAFD600AB306D /* DataSupport.h */,
+				271DD3601F1FAFD600AB306D /* DataSupport.m */,
+				271DD3541F1F995F00AB306D /* TestDataModel.h */,
+				271DD3551F1F995F00AB306D /* TestDataModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		271DD45A1F1FBF2200AB306D /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				271DD46E1F1FBF2200AB306D /* MainTableViewController.h */,
+				271DD46F1F1FBF2200AB306D /* MainTableViewController.m */,
+				271DD4701F1FBF2200AB306D /* SuperTableViewController */,
+				271DD4601F1FBF2200AB306D /* AutolayoutTableViewController */,
+				271DD4661F1FBF2200AB306D /* CountHeightTableViewController */,
+				271DD4691F1FBF2200AB306D /* FrameCountTableViewController */,
+				271DD45B1F1FBF2200AB306D /* AsyncDisplayKitTableViewController */,
+				271DD4751F1FBF2200AB306D /* YYKitTableViewController */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		271DD45B1F1FBF2200AB306D /* AsyncDisplayKitTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				271DD45C1F1FBF2200AB306D /* AsyncDisplayKitTableViewCell.h */,
+				271DD45D1F1FBF2200AB306D /* AsyncDisplayKitTableViewCell.m */,
+				271DD45E1F1FBF2200AB306D /* AsyncDisplayKitTableViewController.h */,
+				271DD45F1F1FBF2200AB306D /* AsyncDisplayKitTableViewController.m */,
+			);
+			path = AsyncDisplayKitTableViewController;
+			sourceTree = "<group>";
+		};
+		271DD4601F1FBF2200AB306D /* AutolayoutTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				271DD4611F1FBF2200AB306D /* AutolayoutTableViewCell.h */,
+				271DD4621F1FBF2200AB306D /* AutolayoutTableViewCell.m */,
+				271DD4631F1FBF2200AB306D /* AutolayoutTableViewCell.xib */,
+				271DD4641F1FBF2200AB306D /* AutolayoutTableViewController.h */,
+				271DD4651F1FBF2200AB306D /* AutolayoutTableViewController.m */,
+			);
+			path = AutolayoutTableViewController;
+			sourceTree = "<group>";
+		};
+		271DD4661F1FBF2200AB306D /* CountHeightTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				271DD4671F1FBF2200AB306D /* CountHeightTableViewController.h */,
+				271DD4681F1FBF2200AB306D /* CountHeightTableViewController.m */,
+			);
+			path = CountHeightTableViewController;
+			sourceTree = "<group>";
+		};
+		271DD4691F1FBF2200AB306D /* FrameCountTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				271DD46A1F1FBF2200AB306D /* FrameCountTableViewController.h */,
+				271DD46B1F1FBF2200AB306D /* FrameCountTableViewController.m */,
+				271DD46C1F1FBF2200AB306D /* FrameLayoutTableViewCell.h */,
+				271DD46D1F1FBF2200AB306D /* FrameLayoutTableViewCell.m */,
+			);
+			path = FrameCountTableViewController;
+			sourceTree = "<group>";
+		};
+		271DD4701F1FBF2200AB306D /* SuperTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				271DD4711F1FBF2200AB306D /* SuperTableViewCell.h */,
+				271DD4721F1FBF2200AB306D /* SuperTableViewCell.m */,
+				271DD4731F1FBF2200AB306D /* SuperTableViewController.h */,
+				271DD4741F1FBF2200AB306D /* SuperTableViewController.m */,
+			);
+			path = SuperTableViewController;
+			sourceTree = "<group>";
+		};
+		271DD4751F1FBF2200AB306D /* YYKitTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				271DD4761F1FBF2200AB306D /* YYKitTableViewCell.h */,
+				271DD4771F1FBF2200AB306D /* YYKitTableViewCell.m */,
+				271DD4781F1FBF2200AB306D /* YYKitTableViewController.h */,
+				271DD4791F1FBF2200AB306D /* YYKitTableViewController.m */,
+			);
+			path = YYKitTableViewController;
+			sourceTree = "<group>";
+		};
 		274ED9E51F1F68C40021FEA6 = {
 			isa = PBXGroup;
 			children = (
 				274ED9F01F1F68C40021FEA6 /* JPDisplayLayout */,
-				274EDA0D1F1F68C40021FEA6 /* JPDisplayLayoutTests */,
-				274EDA181F1F68C40021FEA6 /* JPDisplayLayoutUITests */,
 				274ED9EF1F1F68C40021FEA6 /* Products */,
+				A50C69778DFD2D08C6E12491 /* Pods */,
+				3ACAB3C66CBAD4149AA51069 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,15 +242,16 @@
 		274ED9F01F1F68C40021FEA6 /* JPDisplayLayout */ = {
 			isa = PBXGroup;
 			children = (
+				271DD3531F1F994A00AB306D /* Model */,
+				274EDA271F1F95930021FEA6 /* Tools */,
 				274ED9F41F1F68C40021FEA6 /* AppDelegate.h */,
 				274ED9F51F1F68C40021FEA6 /* AppDelegate.m */,
-				274ED9F71F1F68C40021FEA6 /* ViewController.h */,
-				274ED9F81F1F68C40021FEA6 /* ViewController.m */,
+				271DD45A1F1FBF2200AB306D /* ViewController */,
 				274ED9FA1F1F68C40021FEA6 /* Main.storyboard */,
 				274EDA001F1F68C40021FEA6 /* Assets.xcassets */,
 				274EDA021F1F68C40021FEA6 /* LaunchScreen.storyboard */,
 				274EDA051F1F68C40021FEA6 /* Info.plist */,
-				274ED9FD1F1F68C40021FEA6 /* JPDisplayLayout.xcdatamodeld */,
+				271DD3581F1F9AE300AB306D /* PrefixHeader.pch */,
 				274ED9F11F1F68C40021FEA6 /* Supporting Files */,
 			);
 			path = JPDisplayLayout;
@@ -125,22 +265,34 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		274EDA0D1F1F68C40021FEA6 /* JPDisplayLayoutTests */ = {
+		274EDA271F1F95930021FEA6 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
-				274EDA0E1F1F68C40021FEA6 /* JPDisplayLayoutTests.m */,
-				274EDA101F1F68C40021FEA6 /* Info.plist */,
+				274EDA2A1F1F95930021FEA6 /* FPSDisplay.h */,
+				274EDA2B1F1F95930021FEA6 /* FPSDisplay.m */,
+				274EDA2C1F1F95930021FEA6 /* ImageCache.h */,
+				274EDA2D1F1F95930021FEA6 /* ImageCache.m */,
+				274EDA2E1F1F95930021FEA6 /* UIView+Frame.h */,
+				274EDA2F1F1F95930021FEA6 /* UIView+Frame.m */,
 			);
-			path = JPDisplayLayoutTests;
+			path = Tools;
 			sourceTree = "<group>";
 		};
-		274EDA181F1F68C40021FEA6 /* JPDisplayLayoutUITests */ = {
+		3ACAB3C66CBAD4149AA51069 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				274EDA191F1F68C40021FEA6 /* JPDisplayLayoutUITests.m */,
-				274EDA1B1F1F68C50021FEA6 /* Info.plist */,
+				8795F1A39CF50854A72BC6FB /* libPods-JPDisplayLayout.a */,
 			);
-			path = JPDisplayLayoutUITests;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A50C69778DFD2D08C6E12491 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DCD5889327B39740968229A3 /* Pods-JPDisplayLayout.debug.xcconfig */,
+				CFF730488CAB677A6AB84DE8 /* Pods-JPDisplayLayout.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,9 +302,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 274EDA1E1F1F68C50021FEA6 /* Build configuration list for PBXNativeTarget "JPDisplayLayout" */;
 			buildPhases = (
+				5F7CE16CB7AA57205180C0CE /* [CP] Check Pods Manifest.lock */,
 				274ED9EA1F1F68C40021FEA6 /* Sources */,
 				274ED9EB1F1F68C40021FEA6 /* Frameworks */,
 				274ED9EC1F1F68C40021FEA6 /* Resources */,
+				70B67298F45EFE3E54B78320 /* [CP] Embed Pods Frameworks */,
+				9348F9F2519E732C2BCDB771 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,6 +409,7 @@
 			files = (
 				274EDA041F1F68C40021FEA6 /* LaunchScreen.storyboard in Resources */,
 				274EDA011F1F68C40021FEA6 /* Assets.xcassets in Resources */,
+				271DD47D1F1FBF2200AB306D /* AutolayoutTableViewCell.xib in Resources */,
 				274ED9FC1F1F68C40021FEA6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,15 +430,78 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5F7CE16CB7AA57205180C0CE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		70B67298F45EFE3E54B78320 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JPDisplayLayout/Pods-JPDisplayLayout-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9348F9F2519E732C2BCDB771 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JPDisplayLayout/Pods-JPDisplayLayout-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		274ED9EA1F1F68C40021FEA6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				274ED9F91F1F68C40021FEA6 /* ViewController.m in Sources */,
+				271DD47F1F1FBF2200AB306D /* CountHeightTableViewController.m in Sources */,
+				271DD4831F1FBF2200AB306D /* SuperTableViewCell.m in Sources */,
+				271DD4861F1FBF2200AB306D /* YYKitTableViewController.m in Sources */,
+				271DD47A1F1FBF2200AB306D /* AsyncDisplayKitTableViewCell.m in Sources */,
+				271DD3611F1FAFD600AB306D /* DataSupport.m in Sources */,
+				271DD47E1F1FBF2200AB306D /* AutolayoutTableViewController.m in Sources */,
+				274EDA311F1F95930021FEA6 /* FPSDisplay.m in Sources */,
 				274ED9F61F1F68C40021FEA6 /* AppDelegate.m in Sources */,
-				274ED9FF1F1F68C40021FEA6 /* JPDisplayLayout.xcdatamodeld in Sources */,
+				271DD47C1F1FBF2200AB306D /* AutolayoutTableViewCell.m in Sources */,
+				274EDA331F1F95930021FEA6 /* UIView+Frame.m in Sources */,
+				271DD4821F1FBF2200AB306D /* MainTableViewController.m in Sources */,
 				274ED9F31F1F68C40021FEA6 /* main.m in Sources */,
+				271DD3561F1F995F00AB306D /* TestDataModel.m in Sources */,
+				271DD47B1F1FBF2200AB306D /* AsyncDisplayKitTableViewController.m in Sources */,
+				271DD4801F1FBF2200AB306D /* FrameCountTableViewController.m in Sources */,
+				271DD4851F1FBF2200AB306D /* YYKitTableViewCell.m in Sources */,
+				274EDA321F1F95930021FEA6 /* ImageCache.m in Sources */,
+				271DD4841F1FBF2200AB306D /* SuperTableViewController.m in Sources */,
+				271DD4811F1FBF2200AB306D /* FrameLayoutTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,7 +509,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				274EDA0F1F1F68C40021FEA6 /* JPDisplayLayoutTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,7 +516,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				274EDA1A1F1F68C40021FEA6 /* JPDisplayLayoutUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,9 +648,12 @@
 		};
 		274EDA1F1F1F68C50021FEA6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCD5889327B39740968229A3 /* Pods-JPDisplayLayout.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = EDG77N5CNZ;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = JPDisplayLayout/PrefixHeader.pch;
 				INFOPLIST_FILE = JPDisplayLayout/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wangzi.JPDisplayLayout;
@@ -443,9 +663,12 @@
 		};
 		274EDA201F1F68C50021FEA6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFF730488CAB677A6AB84DE8 /* Pods-JPDisplayLayout.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = EDG77N5CNZ;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = JPDisplayLayout/PrefixHeader.pch;
 				INFOPLIST_FILE = JPDisplayLayout/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wangzi.JPDisplayLayout;
@@ -522,6 +745,7 @@
 				274EDA201F1F68C50021FEA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		274EDA211F1F68C50021FEA6 /* Build configuration list for PBXNativeTarget "JPDisplayLayoutTests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +754,7 @@
 				274EDA231F1F68C50021FEA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		274EDA241F1F68C50021FEA6 /* Build configuration list for PBXNativeTarget "JPDisplayLayoutUITests" */ = {
 			isa = XCConfigurationList;
@@ -538,21 +763,9 @@
 				274EDA261F1F68C50021FEA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		274ED9FD1F1F68C40021FEA6 /* JPDisplayLayout.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				274ED9FE1F1F68C40021FEA6 /* JPDisplayLayout.xcdatamodel */,
-			);
-			currentVersion = 274ED9FE1F1F68C40021FEA6 /* JPDisplayLayout.xcdatamodel */;
-			path = JPDisplayLayout.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 274ED9E61F1F68C40021FEA6 /* Project object */;
 }
